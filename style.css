@@ -309,7 +309,9 @@ margin: 16px 0;
  /* -----------------------
  -------Responsive---------
  ----------------------- */
- @media (max-width:992px) and (min-width:689px){
+
+
+ @media (max-width:1000px) and (min-width:689px){
 
     .banner{
         margin-bottom: 50px;
@@ -331,6 +333,7 @@ margin: 16px 0;
 .all-items{
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+
 
 }
 .extra-button{
