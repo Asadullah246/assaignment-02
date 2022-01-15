@@ -124,8 +124,7 @@ margin: 16px 0;
     max-width: 986px;
     height: 40px;
     margin: 110px 30px;
-
-
+    
 }
 .logos img{
     margin-right: 35px;
@@ -145,6 +144,7 @@ margin: 16px 0;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 32px;
     row-gap: 28px;
+    margin-top: 40px;
 
 }
 
@@ -154,24 +154,34 @@ margin: 16px 0;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 28px;
-}
+} 
 .item{
     max-width: 355px;
     max-height: 455px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
    
 
 }
-.item img{
+/* .item img{
+   
     max-width: 323px;
     max-height: 245px;
-    margin: 15px 0;
-    border-radius: 5px;
+    margin: 15px auto;
+    border-radius: 5px; 
+    padding-left: 34px;
 
+} */
+.pic{
+    max-width: 323px;
+    max-height: 245px;
+    border-radius: 5px; 
+    margin: 15px auto;
+    padding-left: 12px;
 }
 .item-detail{
-   margin:0 15px;
+   margin:0 24px;
+   
 }
 
 .item-name{
