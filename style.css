@@ -19,11 +19,14 @@ body{
 
 .nav-bar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
 .nav-title{
     font-size: 24px;
     font-weight: 700;
+  
+   
 }
 #nav-toggler{
     display: none;
